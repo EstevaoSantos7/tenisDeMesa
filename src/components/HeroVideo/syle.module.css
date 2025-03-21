@@ -1,0 +1,104 @@
+.containerHero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #080c1c;
+    overflow: hidden;
+
+    video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+
+    }
+
+
+    .conteudo {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        padding: 32px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(to right, 
+        rgba(0, 0, 0, 1) 40%, 
+        rgba(0, 0, 0, 0.8) 50%, 
+        rgba(0, 0, 0, 0) 100%);
+
+    }
+
+    h2 {
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    h1 {
+        margin-bottom: 12px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    p {
+        margin-bottom: 12px;
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    .infoMeta {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.botoes {
+    display: flex;
+    gap: 16px;
+
+
+}
+
+.botaoAssistir {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 5px;
+    /* background: linear-gradient(to right, #2994f1, #4facfe, #7addf6); */
+    background-color: rgb(195, 1, 1);
+   transition: 0.5s;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+        background-color: red;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+}
+
+.botaoInfo {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+    background-color:#b6b6b6;
+    color: black;
+    &:hover {
+        background-color:#fff;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+}

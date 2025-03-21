@@ -1,0 +1,41 @@
+.categorias {
+  padding: 40px 20px;
+  background-color: #121212;
+  text-align: center;
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #bbbbbb;
+  }
+}
+
+.listaCategorias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  @media (max-width : 1370px ) {
+    grid-template-columns: 1fr 1fr 1fr;
+   
+  }
+  @media (max-width : 830px ) {
+    grid-template-columns: 1fr 1fr ;
+   
+  }
+  @media (max-width : 656px ) {
+    grid-template-columns: 1fr;
+   
+  }
+}
+
+
+
+
+

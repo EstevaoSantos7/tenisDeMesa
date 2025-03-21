@@ -1,0 +1,74 @@
+.containerHero {
+    height: 60vh;
+
+}
+
+.carrosselSlide {
+
+    background: url('../../images/img_tenis.jpg')no-repeat center center / cover;
+    height: 100%;
+    display: flex;
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 32px;
+    background-color: #0E2a56;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 1) 40%,
+            rgba(0, 0, 0, 0.8) 50%,
+            rgba(0, 0, 0, 0) 100%);
+
+    .carrosselTexto {
+        display: flex;
+        gap: 25px;
+        flex-direction: column;
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 50px;
+            color: #ffffff;
+        }
+
+        p {
+
+            width: 45%;
+            color: #ffffff;
+
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+}
+
+.botao {
+
+    .verMais {
+        padding: 14px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 4px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            background-color: #a6a6a6;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 600;
+    }
+}

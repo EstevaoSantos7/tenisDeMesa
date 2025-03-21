@@ -1,8 +1,17 @@
 import "./App.css";
+import Categorias from "./components/Categorias";
+import Header from "./components/Header/header";
+import Hero from "./components/Hero";
+import HeroVideo from "./components/HeroVideo";
+import Rankings from "./components/Rankings";
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <Header />
+      <HeroVideo />
+      <Categorias />
+      <Rankings />
+      <Hero />
     </>
   );
 }
