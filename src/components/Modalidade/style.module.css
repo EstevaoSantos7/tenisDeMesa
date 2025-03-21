@@ -1,0 +1,23 @@
+.caixaModalidade{
+padding: 25px;
+}
+.conteudo{
+
+img{
+width: 450px;
+object-fit: cover;
+}
+.textoModalidade{
+
+
+    h2{
+font-size: 22px;
+font-weight: 600;
+    }
+    p{
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+}

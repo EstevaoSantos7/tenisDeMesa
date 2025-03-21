@@ -15,9 +15,9 @@ export default function Header() {
         <nav className={sty.bar}>
         <a href="">Inicio</a>
         <a href="">Filmes</a>
-        <a href="">Series</a>
-        <a href="">Genêros</a>
-        <a href="">Lançamentos</a>
+        <a href="">Atletas</a>
+        <a href="">Modalidades</a>
+        <a href="">Sobre</a>
         </nav>
     </div>
    
