@@ -1,0 +1,56 @@
+footer {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+
+    nav {
+        padding: 20px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .termos {
+            color: white;
+            font-size: 15px;
+        }
+
+        .desenvolvido {
+            color: white;
+            font-size: 15px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                
+            }
+        }
+    }
+   
+}
+footer .bar a {
+    position: relative;
+    gap: 25px;
+    display: flex;
+
+}
+
+.bar a::after {
+    transition: 0.3s;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+}
+
+.bar a:hover::after {
+width: 100%;
+}
